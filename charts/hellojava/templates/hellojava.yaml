@@ -52,4 +52,4 @@ spec:
               cpu: "{{.Values.cpu}}"
               memory: "{{.Values.memory}}"
       imagePullSecrets:
-        - name: ciq-acr-config-secret
+        - name: cloudiq-acr
