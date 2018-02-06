@@ -51,3 +51,5 @@ spec:
             requests:
               cpu: "{{.Values.cpu}}"
               memory: "{{.Values.memory}}"
+      imagePullSecrets:
+        - name: ciq-acr-config-secret

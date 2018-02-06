@@ -98,7 +98,7 @@ volumes:[
            pipeline.helmDeploy(
             dry_run       : false,
             name          : "hello-java",
-            namespace     : "hello-java",
+            namespace     : "jenkins-blue",
             version_tag   : tags.get(0),
             chart_dir     : chart_dir,
             replicas      : 2,
