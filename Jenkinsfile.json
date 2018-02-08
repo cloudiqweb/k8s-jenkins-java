@@ -11,7 +11,7 @@
       "host": "cloudiqreg.azurecr.io",
       "master_acct": "kubernetes",
       "alt_acct": "kubernetes",
-      "jenkins_creds_id": "acr_creds",
+      "jenkins_creds_id": "cloudiqreg-cred",
       "repo": "hellojava",
       "dockeremail": ".",
       "dockerfile": "./"

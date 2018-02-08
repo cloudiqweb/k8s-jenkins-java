@@ -26,7 +26,7 @@ volumes:[
     def docker_email = "sudhakar@cloudiq.io"
     def docker_repo = "hellojava"
     def docker_acct = "kubernetes"
-    def jenkins_registry_cred_id = "acr_creds"
+    def jenkins_registry_cred_id = "cloudiqreg-cred"
 
     // checkout sources
     checkout scm
